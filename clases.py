@@ -35,7 +35,7 @@ class Sistema:
             else:
                 return c
 
-    def IngresarPaciente(self,pac):
+    def IngresarPaciente(self,p):
         self.__lista_pacientes.append(p)
         self.__numero_pacientes=len(self.__lista_pacientes)
 
